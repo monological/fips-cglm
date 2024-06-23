@@ -3,5 +3,8 @@
 #
 ---
 exports :
-    header-dirs : [ cglm ]
+  header-dirs:
+    - cglm/include
+  modules:
+    cglm: .
 
